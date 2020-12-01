@@ -1,9 +1,9 @@
-#Author Juho Nyk‰nen
+#Author Juho Nyk√§nen
 
 library(gmodels)
 
 
-data <-matrix(c(17,97,30,142,89,816),dimnames =list(c("Underwright","Overweight","Appropriate"),c("Yes","No")),byrow=T,ncol=2,)
+data <-matrix(c(17,97,30,142,89,816),dimnames =list(c("Underweight","Overweight","Appropriate"),c("Yes","No")),byrow=T,ncol=2,)
 
 head(data)
 
@@ -25,7 +25,7 @@ Total Observations in Table:  1191
              |  
              |      Yes  |       No  | Row Total | 
 -------------|-----------|-----------|-----------|
- Underwright |       17  |       97  |      114  | 
+ Underweight |       17  |       97  |      114  | 
              |   13.018  |  100.982  |           | 
              |    1.218  |    0.157  |           | 
              |   14.912% |   85.088% |    9.572% | 
